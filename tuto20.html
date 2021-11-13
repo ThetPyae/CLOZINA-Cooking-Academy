@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clozina Cooking Academy</title>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="library/fontawesome/css/all.css"/>
+
+ 
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Vast+Shadow&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<!-- header -->
+	<div id="header">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a href="index.html">
+				<div class="logo">Clozina <span>Cooking Academy</span></div>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		   		<ul class="navbar-nav ml-auto">
+		   			<li class="nav-item">
+ 		      			<a href="index.html">Home</a>
+		     		</li>
+		   			<li class="nav-item dropdown">
+      					<a class="dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+        				Courses
+      					</a>
+      					<div class="dropdown-menu">
+        					<a class="dropdown-item" href="asia-food.html">Asia Food</a>
+        					<a class="dropdown-item" href="euro-food.html">European Food</a>
+        					<a class="dropdown-item" href="africa-food.html">African Food</a>
+      					</div>
+    				</li>
+		     		<li class="nav-item">
+		       			<a href="about-us.html">About Us</a>
+		     		</li>
+		     		<li class="nav-item">
+ 		      			<a href="contact-us.html">Contact Us</a>
+		     		</li>
+		     		<li class="nav-item">
+ 		      			<button type="button" class="buttom btn-primary" data-toggle="modal" data-target="#myModal">
+    						Sign In
+  						</button>
+		     		</li>
+
+ 				 	<!-- The Modal -->
+  					<div class="modal" id="myModal">
+    					<div class="modal-dialog">
+      						<div class="modal-content">
+      							<div class="modal-header">
+      								<div class="title">Sign In</div>
+      								<button type="button" class="close" data-dismiss="modal">&times;</button>
+      							</div>
+      							<div class="modal-body">
+        							<form action="/action_page.php">
+    									<div class="form-row">
+      										<label for="email">Email:</label>
+      										<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" autocomplete="off">
+    									</div>
+    									<br/>
+    									<div class="form-row">
+      										<label for="pwd">Password:</label>
+      										<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" autocomplete="off">
+    									</div>
+    									<br/>
+    									<div class="form-group form-check">
+      										<label class="form-check-label">
+        										<input class="form-check-input" type="checkbox" name="remember"> Remember me
+      										</label>
+      										<a href="forget-pass.html">
+    											Forget Password?
+    										</a>
+    									</div>
+    									<div class="sign-btn">
+    										<a>Sign In</a>
+    									</div>
+    									<div class="sign-up-text">
+    										<p>New learner?<a href="sign-up.html">Sign Up</a>for learn.</p>
+    									</div>
+  									</form>
+        						</div>
+      						</div>
+    					</div>
+ 					</div>
+		    	</ul>
+	  		</div>
+		</nav>
+	</div>
+	<!-- end -->
+
+	<!-- food banner -->
+	<!-- food banner>food title -->
+	<section id="tuto-banner" class="euro10">
+		<div class="container">
+			<div class="tuto-box">
+				<div class="tuto-title">
+					<h4>Tortilla de patata</h4>
+				</div>
+				<div class="tuto-video">
+					<div class="video-box">
+						<h4>Tutorial Video</h4>
+						<video controls class="tuto-video col-12">
+							<source src="video/spain2.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+				<div class="row col-12">
+					<div class="ingredient col-12 col-lg-5">
+						<div class="ingredient-box">
+							<h4>Ingredients</h4>
+							<ul class="ingredient-list">
+								<li>
+									<i class="fas fa-utensils"></i>
+									<span>6 to 7 medium potatoes (peeled)</span>
+								</li>
+								<li>	
+									<i class="fas fa-utensils"></i>
+									<span>1 yellow onion (diced into 1/4-inch pieces)</span>
+								</li>
+								<li>	
+									<i class="fas fa-utensils"></i>
+									<span>1/2 tablespoon salt (or to taste)</span>
+								</li>
+								<li>	
+									<i class="fas fa-utensils"></i>
+									<span>2 to 3 cups olive oil (for pan-frying)</span>
+								</li>
+								<li>	
+									<i class="fas fa-utensils"></i>
+									<span>5 to 6 large eggs (the better the eggs, the better the tortilla)</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="instruction col-12 col-lg-7">
+						<div class="instruction-box">
+							<h4>Instructions</h4>
+							<ol class="instruction-list">
+								<li>									
+									<p>Gather the ingredients.</p>
+								</li>
+								<li>
+									<p>Cut the peeled potatoes in half lengthwise. Then, with the flat side on the cutting surface, slice the potato into pieces approximately 1/8-inch thick. If you slice them thick, don’t worry—it will simply take a little longer for them to cook.</p>
+								</li>
+								<li>
+									<p>Place potatoes and onions into a large bowl and mix them together. Salt the mixture.</p>
+								</li>
+								<li>
+									<p>In a large, heavy, nonstick frying pan, heat 1 1/2 cups of the olive oil on medium-high heat. Carefully place the potato-onion mixture into the frying pan, spreading it evenly over the surface. The oil should almost cover the potatoes. You might need to turn down the heat slightly so the potatoes do not burn. You want them to slowly fry, not becoming crisp like french fries, but rather tender and creamy. It is important to use good olive oil, as the potatoes will absorb quite a bit of the oil.</p>
+								</li>
+								<li>									
+									<p>Leave the mixture in the pan until the potatoes are cooked. If you can poke a piece of potato with a spatula and it easily breaks in two, your potatoes are done. Remove from the pan with a slotted spoon or spatula that allows the oil to drain and let cool.</p>
+								</li>
+								<li>
+									<p>Crack the eggs into a large and beat by hand with a whisk or fork. Pour in the cooled potato-onion mixture. Mix together with a large spoon. Let sit for about five minutes.</p>
+								</li>
+								<li>
+									<p>Pour 1 to 2 tablespoons of the remaining olive oil into a small, non-stick frying pan (approximately 9 to 10 inches in diameter) and heat on medium heat. Be careful not to get the pan too hot because the oil or the tortilla will burn. When hot, stir the potato-onion mixture once more and “pour” into the pan and spread out evenly. Allow the egg to cook around the edges. Then you can carefully lift up one side of the omelet to check if the egg has slightly browned. The inside of the mixture should not be completely cooked and the egg will still be runny.</p>
+								</li>
+								<li>
+									<p>When the mixture has browned on the bottom, you are ready to turn it over to cook the other side. Take the frying pan to a sink. Place a large dinner plate—about 12 inches in size—upside down over the frying pan. With one hand on the frying pan handle and the other on top of the plate to hold it steady, quickly turn the frying pan over and let the omelet fall onto the plate.</p>
+								</li>
+								<li>									
+									<p>Place the frying pan back on the range and put just enough of the remaining oil to cover the bottom and sides of the pan. Let the pan warm for 30 seconds or so.</p>
+								</li>
+								<li>
+									<p>Now slide the omelet into the frying pan. Use the spatula to shape the sides of the omelet. Let the omelet cook for 3 to 4 minutes. Turn the heat off and let the tortilla sit in the pan for 2 minutes.</p>
+								</li>
+								<li>
+									<p>Slide the omelet onto a plate to serve.</p>
+								</li>
+								<li>
+									<p>If eating as a main course, cut the omelet into 6 to 8 pieces like a pie. Serve sliced French bread on the side.</p>
+								</li>
+								<li>									
+									<p>If you are serving as an appetizer, slice a baguette into pieces about 1/2-inch thick. Cut the tortilla into 1 1/2 inch squares and place a piece on top of each slice of bread.</p>
+								</li>
+								<li>
+									<p>Serve and enjoy!</p>
+								</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end -->
+
+	
+
+	<!-- footer -->
+	<section id="footer" class="std-section">
+		<div class="container">
+			<div class="footer-title col-sm-12 col-md-12 col-lg-12">
+				<p>
+					<span>C</span>
+					<span>L</span>
+					<span>O</span>
+					<span>Z</span>
+					<span>I</span>
+					<span>N</span>
+					<span>A</span>
+				</p>
+				<div class="top-btn">
+					<a href="#header" rel="To top of the webpage">
+						<i class="fas fa-angle-double-up"></i>
+					</a>
+				</div>
+			</div>
+		
+			<div class="follow col-sm-12 col-md-12 col-lg-12">
+				<div class="follow-us">
+					<p>Follow Us On</p>
+					<div class="social-icon">
+						<a href="http://www.facebook.com">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</div>
+
+					<div class="social-icon">
+						<a href="http://www.twitter.com">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+
+					<div class="social-icon">
+						<a href="http://www.instagram.com">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+
+					<div class="social-icon">
+						<a href="http://www.youtube.com">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</div>
+					<div class="footer-links">
+						<div class="links">
+							<p class="sub-link"><a href="terms.html">Terms</a></p>
+							<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+							<p class="sub-link"><a href="contact-us.html">Contact Us</a></p>
+							<p class="sub-link1"><a href="about-us.html">About Us</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<p class="copyright-box">
+						<a href="index.html">
+							<span class="logo">CLOZINA</span>
+						</a>
+						<span class="text">Copyright &copy; 2020 CLOZINA</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
