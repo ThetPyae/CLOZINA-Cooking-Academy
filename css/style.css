@@ -1,0 +1,1367 @@
+/*==========================================
+Global
+============================================*/
+html, body {
+	margin: 0;
+}
+
+body {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*===========================================
+Common CSS
+=============================================*/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'lato', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	margin: 0;
+	font-family: 'roboto', sans-serif;
+	font-weight: 400;
+}
+
+.std-section {
+	padding-top: 80px;
+}
+
+.std-title {
+	text-align: center;
+	color: #fdd017;
+	font-size: 40px;
+	text-transform: capitalize;
+	margin-bottom: 65px;
+}
+
+
+
+/*===========================================
+header
+=============================================*/
+#header{
+	background: #404040;
+}
+
+.navbar-light a{
+	text-decoration: none;
+}
+
+.navbar-light .logo{
+	color: #fdd017;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+}
+
+.navbar-light span{
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.navbar-nav .nav-item{
+	background-color: rgba(0,0,0,0.5);
+	border-bottom: solid 1px #fff;
+	text-align: center;
+}
+
+.navbar-nav a{
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: .2em 0.5rem;
+}
+
+.navbar-nav a:hover{
+	color: #fdd017;
+	font-size: 16px;
+}
+
+/*===========================================
+header>dropdown
+=============================================*/
+.navbar-light .navbar-toggler {
+    background-color: #fdd017;
+    outline: none;
+}
+.dropdown-menu{
+	background: rgba(0,0,0,0.5);
+}
+
+.dropdown-menu .dropdown-item{
+	color: #fff;
+	font-size: 12px;
+	border-bottom: solid 0.5px #fff;
+	text-align: center;
+}
+.dropdown-menu .dropdown-item:hover{
+	color: #fdd017;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 16px;
+}
+
+/*===========================================
+header>modal button
+=============================================*/
+.navbar-nav .buttom{
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0);
+	border: none;
+}
+
+.navbar-nav .buttom:hover{
+	color: #fdd017;
+	font-size: 16px;
+}
+
+/*===========================================
+header>modal box
+=============================================*/
+.modal-content{
+	background-color: #333;
+}
+.modal-header .title{
+	color: #fdd017;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.modal-header .close {
+    padding: 0.2rem 0.2rem;
+    margin: -1rem -0.5rem -1rem auto;
+    color: #fff;
+    background-color: red;
+    border-radius: 0em 0em 1em 1em;
+    height: 2em;
+}
+.modal-header .close:hover {
+    color: #fdd017;
+    background-color: red;
+}
+.form-row label{
+	font-size: 16px;
+	color: #fff;
+}
+.form-group label{
+	color: #fff;
+	font-size: 15px;
+}
+.form-group a{
+	margin-left: 35%;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.form-group a:hover{
+	font-size: 15px;
+}
+.sign-btn{
+	text-align: center;
+	margin: 20px 0;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fdd017;
+}
+.sign-btn a{
+	font-size: 18px;
+    line-height: 40px;
+    color: #333;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.sign-btn a:hover{
+	color: #333;
+	font-size: 20px;
+}
+.modal .modal-body .sign-up-text{
+	margin-top: 0px;
+    padding-top: 10px;
+    border-top: 1px solid #fff;
+}
+.modal .modal-body .sign-up-text p{
+	font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.modal .modal-body .sign-up-text a{
+	font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 400;
+} 
+.modal .modal-body .sign-up-text a:hover{
+	color: #fdd017;
+}
+
+/*===========================================
+Banner
+=============================================*/
+.carousel-item{
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.carousel-caption{
+	bottom: 40%;
+}
+.carousel-caption h5{
+	font-size: 20px;
+	text-transform: capitalize;
+	letter-spacing: 1.5px;
+	margin-top: 25px;
+	color: #fff;
+}
+.carousel-caption span{
+	text-transform: uppercase;
+	color: #fdd017;
+}
+.w-100{
+	height: 100vh;
+}
+.carousel-caption p{
+	width: 100%;
+	margin: auto;
+	font-size: 15px;
+	line-height: 1.9;
+	letter-spacing: 2px;
+}
+.carousel-caption a{
+	text-transform: uppercase;
+	background: rgba(0,0,0,0.5);
+	padding: 10px 15px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 15px;
+}
+.carousel-caption a:hover{
+	color: #fdd017;
+	padding: 12px 17px;
+	font-weight: bold;
+}
+
+
+/*===========================================
+main courses
+=============================================*/
+#main-courses .card{
+	width: 100%;
+	padding: 1em;
+	margin: 0.5em 0em;
+	cursor: pointer;
+	background: #f3f3f3;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 1px #000;
+
+}
+#main-courses .card .card-box{
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+.card .card-box .card-overlay{
+	position: absolute;
+	bottom: 100%;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+}
+.card .card-box:hover .card-overlay{
+	opacity: 1;
+	bottom: 0;
+	transition: 0.8s ease;
+}
+.card .card-box .card-overlay p {
+    color: #000;
+    background-color: #fdd017;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Vast Shadow', cursive;
+    font-weight: 400;
+    margin-top: 22%;
+    padding: 10px;
+}
+.card .card-body{
+	padding: 1em;
+}
+.card-body p{
+	font-size: 15px;
+}
+.card-body .card-title{
+	text-align: center;
+	background-color: #fdd017;
+	padding: 10px 0;
+	border-radius: 80px 80px 0 0;
+	height: 45px;
+}
+.card-body .popular{
+	background: #fdd017;
+	color: #fff;
+	padding: 8px 40px;
+	text-transform: capitalize;
+	position: absolute;
+	right: -50px;
+	top: 28px;
+	font-size: 13px;
+	transform: rotate(40deg);
+}
+.card-body .popular span{
+	color: red;
+}
+.card-body .course-list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.card-body .course-list li {
+	width: 142px;
+	margin: auto;
+	height: 36px;
+	line-height: 36px;
+	font-size: 15px;
+}
+.card-body .course-list li i {
+	display: inline-block;
+	width: 25px;
+	text-align: center;
+	color: #555;
+}
+.card-body .course-list li span {
+	color: #555;
+}
+.card .card-body a {
+	display: block;
+	width: 100%;
+	height: 45px;
+	border-radius: 0 0 80px 80px;
+	border: 2px solid #fdd017;
+	color: #fdd017;
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration: none;
+	margin: 8px auto;
+	transition: .4s ease;
+}
+.card .card-body a:hover {
+	background: #fdd017;
+	color: #fff;
+}
+
+/*===========================================
+about
+=============================================*/
+#about{
+	padding-bottom: 80px;
+}
+#about .about-box{
+	border: none;
+}
+#about .about-box .about-icon{
+	font-size: 40px;
+    text-align: center;
+    color: #fdd017;
+}
+#about .about-box1 .about-icon{
+	font-size: 40px;
+    text-align: center;
+    color: #fdd017;
+}
+
+#about .about-box .about-title{
+	text-align: center;
+    padding: 15px;
+    color: #303030;
+    font-size: 20px;
+}
+#about .about-box1 .about-title{
+	text-align: center;
+    padding: 15px;
+    color: #303030;
+    font-size: 20px;
+}
+#about .about-box p{
+	font-size: 15px;
+    text-align: center;
+    color: #555;
+    padding: 15px;
+}
+#about .about-box1 p{
+	font-size: 15px;
+    text-align: center;
+    color: #555;
+    padding: 15px;
+}
+
+
+/*===========================================
+footer>footer-title
+=============================================*/
+#footer{
+	width: 100%;
+	padding-top: 0px;
+}
+#footer .container{
+	background-color: #404040;
+	max-width: 100%;
+}
+#footer .footer-title{
+	padding: 14px;
+}
+.footer-title p {
+    border-top: 1px solid #fff;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: bold;
+}
+.footer-title p>span {
+    margin: -1px 1px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 0 0 20px 20px;
+    color: #404040;
+    background-color: #fff;
+    font-size: 20px;
+}
+.footer-title .top-btn {
+    margin-top: -34px;
+    margin-left: 95%;
+}
+.footer-title .top-btn i {
+    padding: 5px;
+    width: 25px;
+    border: 1px solid #fff;
+    border-radius: 0 0 20px 20px;
+    color: #404040;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    height: 37px;
+}
+.footer-title .top-btn:hover i{
+	color: red;
+	background-color: #fdd017;
+	border: none;
+	font-size: 22px;
+}
+
+
+/*===========================================
+footer>footer-body
+=============================================*/
+#footer .follow .follow-us{
+	text-align: center;
+	padding: 1em;
+}
+.follow .follow-us p{
+	font-size: 16px;
+	color: #fff;
+	margin: 10px 0;
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+.follow-us .social-icon{
+	display: inline-block;
+  	width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: 1.5px solid #fff;
+    border-radius: 90px;
+}
+.follow-us .social-icon i{
+	padding: 10px;
+	color: #fff;
+}
+.follow-us .social-icon:hover{
+	background-color: #fdd017;
+	border: 1.5px solid #404040;
+	transition: 1s ease;
+}
+.follow-us .social-icon:hover i{
+	color: #404040;
+}
+.follow-us .footer-links .links{
+	font-size: 12px;
+    margin: 10px 0;
+}
+.footer-links .links .sub-link{
+	letter-spacing: 1px;
+    font-weight: bold;
+    border-right: 1px solid;
+    padding: 0 8px;
+    display: inline;
+    font-family: 'lato', sans-serif;
+    font-size: 12px;
+}
+.footer-links .links .sub-link1{
+	letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0 8px;
+    display: inline;
+    font-family: 'lato', sans-serif;
+    font-size: 12px;
+}
+.footer-links .links a{
+	color: #fff;
+	text-decoration: none;
+}
+.footer-links .links a:hover{
+	color: #fdd017;
+}
+
+/*===========================================
+footer>copyright
+=============================================*/
+.copyright .copyright-box{
+	text-align: center;
+	padding-bottom: 1em;
+	text-decoration: none;
+}
+.copyright .copyright-box a{
+	text-decoration: none;
+}
+.copyright .copyright-box .logo{
+	color: #fdd017;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    border-right: 1px solid #fff;
+    padding-right: 5px;
+    text-decoration: none;
+}
+.copyright .copyright-box .text{
+	padding: 5px;
+    color: #fff;
+    font-size: 13px;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/*===========================================
+food banner>food title
+=============================================*/
+#food-banner {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	padding: 5% 0;
+}
+.asia-food{
+	background-image: url('../img/place1.jpg');
+}
+.euro-food{
+	background-image: url('../img/place2.jpg');
+}
+.africa-food{
+	background-image: url('../img/place3.jpg');
+}
+#food-banner .food-box{
+	background-color: rgba(0,0,0,0.7);
+}
+.food-box .food-title{
+	border-bottom: 1px solid #fff;
+}
+.food-box .food-title .row{
+	margin: auto;
+    width: 90%;
+    padding: 20px 0;
+}
+.food-title .row .prev-btn a,
+.food-title .row .next-btn a{
+	font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.food-title .row .prev-btn a:hover,
+.food-title .row .next-btn a:hover{
+    color: #fdd017;
+}
+.food-title .row h1{
+	font-size: 20px;
+    margin: auto;
+    padding: 8px 15px;
+}
+
+
+
+
+/*===========================================
+food banner>food box
+=============================================*/
+.foods{
+	padding: 20px 0px;
+}
+.foods>.row{
+	margin: 0px 20px;
+}
+.foods>.row .food-item{
+	padding: 0px 20px;
+	margin: 20px 0px; 
+}
+.foods>.row .food-item:hover{
+	padding: 0px 10px;
+	margin: 10px 0px;
+	transition: 1s ease;
+}
+.food-item .card{
+	background-color: #f9f9f9;
+}
+.food-item .card .food-image,
+.food-item .card .name-flag{
+	padding: 5%;
+}
+.food-item .card .food-image img{
+	box-shadow: 0 0 10px #000;
+}
+.food-item .card .card-body h4{
+	font-family: 'Playfair Display', serif;
+	font-weight: 800;
+	color: #404040;
+	text-decoration: none;
+	font-size: 20px;
+}
+.food-item .card .card-body p{
+	color: #c1c3c6;
+	text-decoration: none;
+	font-size: 11px;
+}
+.food-item a:hover{
+	text-decoration: none;
+}
+.card .name-flag .flag{
+	margin: 1em 0;
+    padding: 0 1em;
+}
+.card .name-flag .flag img{
+	width: 100%;
+    box-shadow: 0 0 5px #000;
+}
+
+
+
+/*===========================================
+food details
+=============================================*/
+.asia1, .asia7{
+	background-image: url('../img/india.jpg');
+}
+.asia2, .asia5{
+	background-image: url('../img/korea.jpg');
+}
+.asia3, .asia4{
+	background-image: url('../img/japan.jpg');
+}
+.asia6, .asia8{
+	background-image: url('../img/china.jpg');
+}
+.asia9, .asia10{
+	background-image: url('../img/thai.jpg');
+}
+.euro1, .euro6{
+	background-image: url('../img/portugal.jpg');
+}
+.euro2, .euro5{
+	background-image: url('../img/france.jpg');
+}
+.euro3, .euro7{
+	background-image: url('../img/ukraine.jpg');	
+}
+.euro4, .euro10{
+	background-image: url('../img/spain.jpg');
+}
+.euro8, .euro9{
+	background-image: url('../img/italy.jpg');
+}
+.africa1, .africa10{
+	background-image: url('../img/morocco.jpg');
+}
+.africa2, .africa5{
+	background-image: url('../img/egypt.jpg');
+}
+.africa3, .africa8{
+	background-image: url('../img/tunisia.jpg');
+}
+.africa4, .africa7{
+	background-image: url('../img/ethiopia.jpg');
+}
+.africa6, .africa9{
+	background-image: url('../img/nigeria.jpg');
+}
+#food-banner .details-box{
+	background-color: #f9f9f9;
+	width: 75%;
+    margin: 3em auto;
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+}
+.details-box .details-image{
+	padding: 5%;
+}
+.details-box .details-image img{
+	width: 100%;
+}
+.details-box .details-body h4{
+	font-family: 'Playfair Display', serif;
+	font-weight: 800;
+	color: #404040;
+	text-decoration: none;
+	font-size: 20px;
+}
+.details-box .details-body p{
+	color: #c1c3c6;
+	text-decoration: none;
+	font-size: 11px;
+}
+.details-box .name-flag{
+	padding: 1% 5%;
+}
+.details-box .name-flag img{
+	width: 100%;
+    box-shadow: 0 0 5px #000;
+}
+.details-box .details-text{
+	padding: 5%;
+}
+.details-box .video-btn{
+	padding: 0 5% 10% 5%;						
+}
+.details-box .video-btn hr{
+	background-color: #fdd017;
+	height: 1.5px;
+}
+.details-box .video-btn a{
+	display: block;
+    width: 60%;
+    height: 35px;
+    border-radius: 80px;
+    border: 2px solid #fdd017;
+    color: #fdd017;
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    margin: -40px auto;
+    transition: .7s ease;
+    background-color: #fff;
+    box-shadow: 0 4px #fdd017;
+    font-size: 10px;
+}
+.details-box .video-btn a:hover {
+	background: #fdd017;
+	color: #fff;
+	box-shadow: 0 4px #c6c6c6;
+}
+
+
+/*===========================================
+tuto page
+=============================================*/
+#tuto-banner {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	padding: 5% 0;
+}
+#tuto-banner .tuto-box{
+	background-color: #f9f9f9;
+	width: 85%;
+    margin: 2em auto;
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+}
+.tuto-box .tuto-title h4{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: #404040;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5%;
+}
+
+
+
+
+
+/*===========================================
+tuto page>video box
+=============================================*/
+.tuto-box .tuto-video{
+	width: 100%;
+    margin: auto;
+    padding: 0 5% 3% 5%;
+    height: 100%;
+}
+.tuto-box .video-box{
+	border: 1px solid #000;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+}
+.tuto-box .video-box h4{
+	text-align: center;
+    padding: 20px 0;
+    background-color: #fdd017;
+}
+.tuto-box .video-box video{
+	margin-top: 15px;
+	list-style-type: none;
+	padding: 0;
+}
+
+
+/*===========================================
+tuto page>ingredient & instruction box
+=============================================*/
+.tuto-box .row{
+	width: 100%;
+	margin: auto;
+	padding: 0 5% 3% 5%;
+	height: 100%;
+}
+
+
+/*===========================================
+tuto page>ingredient box
+=============================================*/
+.tuto-box .ingredient{
+	margin-bottom: 5%;
+	padding: 0;
+}
+.tuto-box .ingredient-box{
+	border: 1px solid #000;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+}
+.tuto-box .ingredient h4{
+	text-align: center;
+    padding: 20px 0;
+    background-color: #fdd017;
+}
+.ingredient .ingredient-list{
+	margin: 15px 0;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+.ingredient .ingredient-list li{
+	margin: 7px 0;
+}
+.ingredient .ingredient-list span{
+	margin: 0 7px;
+}
+
+
+
+
+/*===========================================
+tuto page>instruction box
+=============================================*/
+.tuto-box .instruction{
+	margin-bottom: 5%;
+	padding: 0;
+}
+.tuto-box .instruction-box{
+	border: 1px solid #000;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+}
+.tuto-box .instruction h4{
+	text-align: center;
+    padding: 20px 0;
+    background-color: #fdd017;
+}
+.instruction .instruction-list{
+	margin: 15px 0;
+	padding: 5px 30px;
+}
+.instruction .instruction-list li{
+	margin: 7px 0;
+}
+.instruction .instruction-list p{
+	margin: 0 7px;
+}
+
+
+
+
+/*===========================================
+sign-up/forget-password
+=============================================*/
+#sign-up{
+	padding: 50px 0;
+}
+#sign-up .sign-up-box{
+	border: 1px solid;
+    margin: auto;
+    box-shadow: 0 0 5px #000;
+    background-color: #333;
+    padding: 0;
+}
+.sign-up-box .sign-up-title{
+	display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid #fff;
+}
+.sign-up-box .sign-up-title h4{
+	color: #fdd017;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sign-up-box .sign-up-title button{
+	padding: 0.2rem 0.2rem;
+    margin: -1rem -0.5rem -1rem auto;
+    color: #fff;
+    background-color: red;
+    border-radius: 0em 0em 1em 1em;
+    height: 1.5em;
+}
+.sign-up-box .sign-up-title a{
+	text-decoration: none;
+    color: #fff;
+}
+.sign-up-box .sign-up-text-boxes{
+	color: #fff;
+	padding: 5%;
+}
+.sign-up-text-boxes table{
+	margin: auto;
+}
+.sign-up-text-boxes .sign-up-btn{
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+}
+.sign-up-text-boxes .sign-up-btn button{
+	border-radius: 5px;
+    background-color: #fdd017;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+.sign-up-text-boxes .sign-up-btn a{
+	font-size: 16px;
+    font-weight: 800;
+}
+.sign-up-text-boxes .sign-up-btn a:hover{
+	font-size: 20px;
+}	
+.sign-up-text-boxes .sign-up-footer{
+	margin-top: 0px;
+    padding-top: 10px;
+    border-top: 1px solid #fff;
+}
+.sign-up-text-boxes .sign-up-footer p{
+	font-size: 16px;
+    text-align: center;
+}
+.sign-up-text-boxes .sign-up-footer a{
+    text-decoration: underline;
+    font-weight: 400;
+    color: #fff;
+}
+.sign-up-text-boxes .sign-up-footer a:hover{
+	color: #fdd017;s
+}
+
+
+/*===========================================
+about-us
+=============================================*/
+#about-us{
+	padding: 40px 0;
+}
+#about-us .about-us-box{
+	width: 90%;
+    margin: auto;
+    border: 1px solid;
+    box-shadow: 0 0 5px #000;
+    background-color: #f1f1f1;
+}
+#about-us .about-us-box .about-us-title{
+	padding: 10px;
+}
+.about-us-box .about-us-title h2{
+	text-align: center;
+    color: #333;
+    font-weight: bold;
+    background-color: #fdd017;
+    padding: 10px;
+}
+.about-us-box .row{
+	padding: 2%; 
+}
+.about-us-box .image img{
+	width: 100%;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+}
+
+
+/*===========================================
+contact-us
+=============================================*/
+#contact-us{
+	padding: 40px 0;
+}
+#contact-us .contact-us-box{
+	width: 60%;
+    margin: auto;
+    border: 1px solid;
+    box-shadow: 0 0 5px #000;
+    background-color: #f1f1f1;
+}
+#contact-us .contact-us-box .contact-us-title{
+	padding: 10px;
+}
+.contact-us-box .contact-us-title h2{
+	text-align: center;
+    color: #333;
+    font-weight: bold;
+    background-color: #fdd017;
+    padding: 10px;
+}
+.contact-us-box .text-box{
+	padding: 20px;
+}
+.contact-us-box .text-box h5{
+	color: #fdd017;
+}
+
+
+
+
+/*===========================================
+terms
+=============================================*/
+#terms{
+	padding: 40px 0;
+}
+#terms .terms-box{
+	width: 60%;
+    margin: auto;
+    border: 1px solid;
+    box-shadow: 0 0 5px #000;
+    background-color: #f1f1f1;
+}
+#terms .terms-box .terms-title{
+	padding: 10px;
+}
+.terms-box .terms-title h2{
+	text-align: center;
+    color: #333;
+    font-weight: bold;
+    background-color: #fdd017;
+    padding: 10px;
+}
+.terms-box .text-box{
+	padding: 20px;
+}
+
+
+
+/*===========================================
+policy
+=============================================*/
+#policy{
+	padding: 40px 0;
+}
+#policy .policy-box{
+	width: 60%;
+    margin: auto;
+    border: 1px solid;
+    box-shadow: 0 0 5px #000;
+    background-color: #f1f1f1;
+}
+#policy .policy-box .policy-title{
+	padding: 10px;
+}
+.policy-box .policy-title h2{
+	text-align: center;
+    color: #333;
+    font-weight: bold;
+    background-color: #fdd017;
+    padding: 10px;
+}
+.policy-box .text-box{
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media(min-width: 576px){
+	.navbar-light .logo{
+		font-size: 30px;
+	}
+
+	.navbar-light span{
+		font-size: 14px;
+	}
+
+	.navbar-nav a{
+		font-size: 16px;	
+	}
+	.navbar-nav a:hover{
+		color: #fdd017;
+		font-size: 20px;
+	}
+	.dropdown-menu .dropdown-item{
+		font-size: 16px;
+	}
+	.dropdown-menu .dropdown-item:hover{
+		font-size: 20px;
+	}
+	.navbar-nav .buttom{
+		font-size: 16px;
+	}
+	.navbar-nav .buttom:hover{
+		color: #fdd017;
+		font-size: 18px;
+	}
+	.form-row label{
+		font-size: 20px;
+	}
+	.carousel-caption h5{
+		font-size: 30px;
+		text-transform: capitalize;
+		letter-spacing: 1.5px;
+		margin-top: 25px;
+		color: #fff;
+	}
+	.carousel-caption p{
+		font-size: 20px;
+	}
+	.form-group a{
+		margin-left: 47%;
+	    font-size: 15px;
+	}
+	.form-group a:hover{
+		font-size: 15px;
+	}
+	.sign-btn a:hover{
+		color: #333;
+		font-size: 20px;
+	}
+	.card .card-box .card-overlay p{
+		font-size: 30px;
+		margin-top: 25%;
+	}
+	#footer .footer-title{
+		padding: 30px;
+	}
+	.footer-title p{
+		padding-top: 7px;
+	}
+	.footer-title p>span{
+	    padding: 10px;
+	    font-size: 25px;
+	}
+	.footer-title .top-btn{
+		margin-top: -45px;
+	}
+	.footer-title .top-btn i{
+		padding: 11px;
+	    width: 40px;
+	    font-size: 25px;
+	    height: 52px;
+	}
+	.footer-title .top-btn:hover i{
+		font-size: 27px;
+	}
+	.copyright .copyright-box .logo{
+		font-size: 28px;
+		padding-right: 15px;
+	}
+	.copyright .copyright-box .text{
+	    padding-left: 20px;
+	    color: #fff;
+	    font-size: 16px;
+	}
+	.food-title .row .prev-btn a,
+	.food-title .row .next-btn a{
+		font-size: 30px;
+	}
+	.food-title .row h1{
+		font-size: 30px;
+	}
+	.details-box .details-body h4{
+		font-size: 30px;
+	}
+	.details-box .details-body p{
+		font-size: 16px;
+	}
+	.details-box .video-btn a{
+	    font-size: 15px;
+	}
+	.tuto-box .tuto-title h4{
+	    font-size: 30px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media(min-width: 768px){
+	.navbar-light .logo{
+		font-size: 35px;
+	}
+	.navbar-nav a{
+		font-size: 15px;
+	}
+	.carousel-caption h5{
+		font-size: 35px;
+		text-transform: capitalize;
+		letter-spacing: 1.5px;
+		margin-top: 25px;
+		color: #fff;
+	}
+	.carousel-caption p{
+		font-size: 25px;
+	}
+	.form-group a:hover{
+		font-size: 15px;
+	}
+	#about .about-box{
+		border-right-width: 1px;
+    	border-right-style: solid;
+    	border-color: #fdd017;
+    	padding: 0 40px 0 0;
+	}
+	#about .about-box1{
+    	padding: 0 40px 0 0;
+	}
+	.follow .follow-us p{
+		font-size: 25px;
+		margin: 15px 0;
+	}
+	.follow-us .social-icon{
+	  	width: 60px;
+	    height: 60px;
+	    font-size: 35px;
+	    margin: 0px 5px;
+	}
+	.follow-us .footer-links .links{
+		font-size: 20px;
+	    margin: 15px 0;
+	}
+	.footer-links .links .sub-link{
+	    padding: 0 20px;
+	    font-size: 20px;
+	}
+	.footer-links .links .sub-link1{
+	    padding: 0 20px;
+	    font-size: 20px;
+	}
+	.food-title .row .prev-btn a,
+	.food-title .row .next-btn a{
+		font-size: 35px;
+	}
+	.food-title .row h1{
+		font-size: 35px;
+	}
+	.food-item .card {
+	    height: 18em;
+	}
+	.foods>.row .food-item{
+		padding: 0px 30px;
+		margin: 30px 0px; 
+	}
+	.foods>.row .food-item:hover{
+		padding: 0px 20px;
+		margin: 20px 0px;
+	}
+	.details-box .video-btn a{
+	    height: 45px;
+	    line-height: 40px;
+	    margin: -44px auto;
+	    font-size: 20px;
+	    box-shadow: 0 8px #fdd017;
+	}
+	.tuto-box .tuto-title h4{
+	    font-size: 35px;
+	}
+}
+
+
+/*Large devices (Laptop/desktops, 992px and up)*/
+@media(min-width: 992px){
+	.navbar-light .logo{
+		font-size: 40px;
+	}
+	.navbar-light span{
+		font-size: 18px;
+	}
+	.navbar-nav .nav-item{
+		background-color: rgba(0,0,0,0);
+		border: none;
+		text-align: center;
+	}
+	.dropdown-menu .dropdown-item{
+		font-size: 15px;
+	}
+	.navbar-nav .buttom{
+		font-size: 15px;
+	}/*
+	.carousel-caption{
+		bottom: 300px;
+	}
+*/	.carousel-caption h5{
+		font-size: 40px;
+		text-transform: capitalize;
+		letter-spacing: 1.5px;
+		margin-top: 25px;
+		color: #fff;
+	}
+	.food-title .row .prev-btn a,
+	.food-title .row .next-btn a{
+		font-size: 40px;
+	}
+	.food-title .row h1{
+		font-size: 40px;
+	}
+	.tuto-box .ingredient{
+		padding-left: 0;
+	}
+	.tuto-box .instruction{
+		padding-right: 0;
+	}
+	.tuto-box .ingredient{
+		padding-right: 2%;
+	}
+	.tuto-box .instruction{
+		padding-left: 2%;
+	}
+}
